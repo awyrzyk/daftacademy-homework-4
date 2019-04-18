@@ -1,0 +1,23 @@
+{
+  "name": "daft_4",
+  "version": "1.0.0",
+  "description": "Homework nr 4 ",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development"
+  },
+  "author": "Alicja Wyrzykowska",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0"
+  },
+  "browserslist": "last 2 Chrome versions"
+}
